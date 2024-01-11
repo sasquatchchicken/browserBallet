@@ -8,6 +8,7 @@ In the realm of cybersecurity, this repository explores a Python script utilizin
 ### Repository Structure
 - **/scripts**
   - `headlessbrowser.py`
+  - `headlessbrowser_chrome.py`
   - `uuid-geo-ip.py`
   - `ip_reconn-geo.py`
 
