@@ -5,10 +5,10 @@ from selenium.webdriver.common.keys import Keys
 # Create a new instance of the Firefox driver in headless mode
 options = webdriver.ChromeOptions()
 options.headless = True
-driver = webdriver.Chrome(options=options)  # for some reason firefox still opens a browser window but the changes are there when inspecting 
+driver = webdriver.Chrome(options=options)
 # Navigate to a website
 #your target url goes here
-driver.get("https://linktr.ee/admin")
+driver.get("https://targetURL....")
 # List of cookies to delete
 cookies_to_delete = ['browserId', 'countryCode', 'sessionId']
 # Iterate over cookies and delete if they exist
