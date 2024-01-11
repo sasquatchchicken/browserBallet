@@ -28,3 +28,4 @@ In the realm of cybersecurity, this repository explores a Python script utilizin
 1. Clone the repository.
 2. Install the required dependencies: `pip install selenium` (if not already installed).
 3. Run the `headlessbrowser.py` script. you will need to adjust the variables based on your needs.
+4. Originally developed as a tool for browser manipulation during a bug bounty.
