@@ -6,11 +6,14 @@ from selenium.webdriver.common.keys import Keys
 options = webdriver.FirefoxOptions()
 options.headless = True
 driver = webdriver.Firefox(options=options)  # for some reason firefox still opens a browser window but the changes are there when inspecting 
+
 # Navigate to a website
 #your target url goes here
 driver.get("insertURL")
+
 # List of cookies to delete
 cookies_to_delete = ['browserId', 'countryCode']
+
 # Iterate over cookies and delete if they exist
 for cookie_name in cookies_to_delete:
     if cookie_name in [cookies['name'] for cookies in driver.get_cookies()]:
