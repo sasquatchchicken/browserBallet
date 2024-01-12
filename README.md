@@ -15,8 +15,7 @@ In the realm of cybersecurity, this repository explores a Python script utilizin
 ### Security Implications
 1. **Cookie Manipulation:** Deleting and adding cookies using Selenium.
 2. **Dynamic Browser State Alteration:** Changing browser settings on-the-fly.
-3. **Tab Manipulation:** Opening and switching between tabs programmatically.
-4. **Headless Browser Usage:** Utilizing headless mode can facilitate undetected automation, enabling malicious activities without a visible browser window.
+3. **Headless Browser Usage:** Utilizing headless mode can facilitate undetected automation, enabling malicious activities without a visible browser window.
 
 ### Mitigation Strategies
 1. **Implement Strong Session Controls:** Employ robust session management mechanisms.
