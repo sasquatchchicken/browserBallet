@@ -21,7 +21,7 @@ for cookie_name in cookies_to_delete:
 
 # Perform actions to change browser settings (this might vary based on your specific needs)
 # For example, if you want to change a cookie setting:
-#driver.add_cookie({'name': 'browserId', 'value': 'my_value'})
+#driver.add_cookie({'name': 'cookie', 'value': 'my_value'})
 driver.add_cookie({'name': 'browserId', 'value': 'e503aa4c-8f10-412f-9823-1fec45e877ac'}) #this UUID was genrated with the use of a random gnerator i made uuid-geo-ip.py 
 driver.add_cookie({'name': 'countryCode', 'value': 'JP'}) #i chose japan as my country code 
 
